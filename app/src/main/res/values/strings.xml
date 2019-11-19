@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Lock Screen</string>
+    <string name="unlock_instructions">Slide to unlock</string>
+    <string name="unlock_locked">Locked</string>
+    <string name="unlock_unlocked">Unlocked</string>
+    <string name="unlock_thumb">Move this thumb</string>
+    <string name="permission_accessibility_setting_description">"Turn on and it locks all soft key including HOME, RECENTS, BACK, MENU buttons. You may be warned about potential privacy risk, that's just a regular informative warning for any accessibility service. We promise NEVER EVER collecting your personal information in this accessibility service."</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Oops, something went wrong. Please try again.</string>
+    <string name="error_lockscreen_not_shown">The lockscreen could not be shown. </string>
+
+    <!-- Notifications -->
+    <string name="notification_retrieved_extra">notificationsRetrievedExtra</string>
+
+    <!-- Clock Date String -->
+    <string name="date_simple" formatted="false">%s, %d %s</string>
+
+    <!-- Fonts -->
+    <string name="font_roboto_thin">sans-serif-thin</string>
+    <string name="font_roboto_regular">sans-serif</string>
+    <string name="font_roboto_mono">monospace</string>
+    <string name="font_roboto_medium">sans-serif-medium</string>
+    <string name="font_roboto_light">sans-serif-light</string>
+    <string name="font_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- Days of week -->
+    <string name="muzei_wallpaper_storage_key">muzeiwallpaper</string>
+    <string name="action_done">Done</string>
+    <string name="welcome_hint_name">What should we call you?</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="action_lets_go">Let\'s go</string>
+    <string name="setup_title">Let\'s get you setup</string>
+    <string name="setup_notification_title">Notification Access</string>
+    <string name="setup_notification_subtitle">Needed to show notifications</string>
+    <string name="setup_system_lock_title">Disable System Lockscreen</string>
+    <string name="setup_system_lock_subtitle">No reason to have two lockscreens</string>
+    <string name="setup_data_access_title">Data Access</string>
+    <string name="setup_data_access_subtitle">Make smarter</string>
+</resources>

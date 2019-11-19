@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/lock_screen_container"
+android:background="@color/black"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:foregroundGravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:text="23"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/operation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:text="+"
+                android:textColor="#fff"/>
+            <TextView
+                android:text="43"
+                android:id="@+id/second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:text=" ="
+                android:textColor="#fff"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="4"
+                android:text=" ?"
+                android:textSize="60sp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_result"
+            android:maxLength="4"
+            android:inputType="phone"
+            android:textSize="60sp"
+            android:textColor="#fff"/>
+        <ImageView
+            android:background="@color/colorAccent"
+            android:layout_marginTop="75dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="150dp"
+            android:layout_height="2dp" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="220dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/button1"
+                android:duplicateParentState="true"
+                android:text="1"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/button2"
+                android:text="2"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/button3"
+                android:text="3"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/button4"
+                android:text="4"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/button5"
+                android:text="5"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/button6"
+                android:text="6"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/button7"
+                android:text="7"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/button8"
+                android:text="8"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/button9"
+                android:text="9"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/button_minus"
+                android:text="-"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/button0"
+                android:text="0"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/buttonClear"
+                android:text="CLEAR"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+        </TableRow>
+
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp">
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_alert"
+            android:textAlignment="center"
+            android:inputType="phone"
+            android:textSize="20sp"
+            android:textColor="#fff"/>
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/unlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>
